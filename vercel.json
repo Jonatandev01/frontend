@@ -1,7 +1,6 @@
 {
-  "buildCommand": "npm run build:prod",
-  "outputDirectory": "dist/alojamientos-frontend/browser",
-  "framework": "angular",
+  "buildCommand": "npm run build",
+  "outputDirectory": "dist/alojamientos-frontend",
   "rewrites": [
     {
       "source": "/(.*)",
