@@ -13,7 +13,7 @@ import type { Alojamiento } from '../../interfaces/alojamiento.interface';
         <h3 class="font-bold">{{alojamiento.nombre}}</h3>
         <p class="text-sm text-gray-600">{{alojamiento.ubicacion}}</p>
         <div class="mt-2 flex justify-between items-center">
-          <<span class="font-semibold text-blue-600">{{ alojamiento.precio | currency:'USD' }}</span>
+          <span class="font-semibold text-blue-600">{{ alojamiento.precio | currency:'USD' }}</span>
           <ng-content></ng-content>
         </div>
       </div>
